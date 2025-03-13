@@ -1,0 +1,31 @@
+.login-pf body {
+    background: url("../img/keycloak-bg.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+#kc-header-wrapper{
+    color: rgb(245, 247, 250);
+    font-size: xx-large;
+}
+.login-pf-page .card-pf {
+    width: 350px;                  /* Reduced width */
+    background-color: #ff4d4d;      /* Red background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Light shadow */
+    margin-left: 30px;              /* Push the card from the left side */
+}
+.pf-c-button.pf-m-primary {
+    background-color: #4CAF50; /* Custom green color */
+    color: #ffffff;            /* White text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect */
+.pf-c-button.pf-m-primary:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
